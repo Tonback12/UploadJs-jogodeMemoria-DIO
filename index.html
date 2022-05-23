@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+   
+    <title>Jogo da memória</title>
+</head>
+
+<body  class="container-fluid">
+<br/>
+<div class="row container-fluid">
+    <button type="button "class="btn btn-sucess" id="Jogar">Clique para Iniciar</button>
+    <button type="button "class="btn btn-danger" id="MostrarTudo">Mostrar as Cartas</button>
+</div>
+<br/>
+<div id="carregando" class="row container-fluid invisible">
+    <strong id="contador">Começando em 1...</strong>
+    <div class="spinner-border text-warning" role="atatus">
+        <span class="visually-hidden"></span>
+    </div>
+</div>
+<div id="conteudo" class="row"></div>
+
+    <main class="memory-game">
+        <div class="card" data-card="Bass1">
+            <img class="card-front" src="./img/Bass1.png" alt="Face da carta">
+            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="Bass2">
+            <img class="card-front" src="./img/Bass2.png" alt="Face da carta">
+            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="Guitar1">
+            <img class="card-front" src="./img/Guitar1.png" alt="Face da carta">
+            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="Guitar2">
+            <img class="card-front" src="./img/Guitar2.png" alt="Face da carta">
+            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="Guitar3">
+            <img class="card-front" src="./img/Guitar3.png" alt="Face da carta">
+            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="Guitar4">
+            <img class="card-front" src="./img/Guitar4.png" alt="Face da carta">
+            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="Bass1">
+            <img class="card-front" src="./img/Bass1.png" alt="Face da carta">
+            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="Bass2">
+            <img class="card-front" src="./img/Bass2.png" alt="Face da carta">
+            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="Guitar1">
+            <img class="card-front" src="./img/Guitar1.png" alt="Face da carta">
+            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="Guitar2">
+            <img class="card-front" src="./img/Guitar2.png" alt="Face da carta">
+            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="Guitar3">
+            <img class="card-front" src="./img/Guitar3.png" alt="Face da carta">
+            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        </div>
+        <div class="card" data-card="Guitar4">
+            <img class="card-front" src="./img/Guitar4.png" alt="Face da carta">
+            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
