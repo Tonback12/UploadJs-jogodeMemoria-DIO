@@ -1,4 +1,4 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
+# Oi, tudo bem? Aqui está mais um code. 🙃
 
 Esse é o repositório da nossa aula de Javascript, na qual vamos fazer um jogo da memória com a temática de Guitarras! 
 
